@@ -22,7 +22,7 @@ filetype indent on
 if has("unix")
   set guifont=Menlo:h11
 else
-  set guifont=Consolas:h11
+  set guifont=Consolas:h9
 endif
 
 if has('gui_running')
