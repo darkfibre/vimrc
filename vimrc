@@ -19,9 +19,9 @@ filetype on
 filetype plugin on
 filetype indent on
 
-if has("unix")
+if has("mac")
   set guifont=Menlo:h11
-else
+elseif has("win32")
   set guifont=Consolas:h9
 endif
 
