@@ -28,9 +28,9 @@ endif
 if has('gui_running')
   set background=light
   colorscheme solarized
-else
-  set background=dark
-  colorscheme solarized
+"else
+"  set background=dark
+"  colorscheme solarized
 endif
 
 "autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
