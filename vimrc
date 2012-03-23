@@ -7,7 +7,6 @@ set shiftwidth=2
 set smarttab
 set expandtab
 set sidescroll=2
-set guifont=Menlo:h11
 set incsearch
 set foldmethod=indent
 set nofoldenable
@@ -19,6 +18,12 @@ syntax on
 filetype on
 filetype plugin on
 filetype indent on
+
+if has("unix")
+  set guifont=Menlo:h11
+else
+  set guifont=Consolas:h11
+endif
 
 if has('gui_running')
   set background=light
