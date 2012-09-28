@@ -14,6 +14,7 @@ set nocompatible
 set nobackup writebackup
 set autowrite
 set number
+set mouse=a
 syntax on
 filetype on
 filetype plugin on
