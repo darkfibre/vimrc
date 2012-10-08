@@ -15,6 +15,7 @@ set nobackup writebackup
 set autowrite
 set number
 set mouse=a
+set clipboard=unnamed
 syntax on
 filetype on
 filetype plugin on
