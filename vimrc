@@ -14,7 +14,7 @@ set nocompatible
 set nobackup writebackup
 set autowrite
 set number
-set mouse=a
+"set mouse=a
 "set clipboard=unnamed
 syntax on
 filetype on
