@@ -14,12 +14,15 @@ set nocompatible
 set nobackup writebackup
 set autowrite
 set number
-"set mouse=a
 "set clipboard=unnamed
 syntax on
 filetype on
 filetype plugin on
 filetype indent on
+
+if &term=~'screen'
+  set mouse=a
+endif
 
 if has("mac")
   set guifont=Menlo:h11
