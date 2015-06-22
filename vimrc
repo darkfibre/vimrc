@@ -1,5 +1,5 @@
-call pathogen#infect()
-call pathogen#helptags()
+"call pathogen#infect()
+"call pathogen#helptags()
 set go-=T
 set so=2
 set tabstop=2
